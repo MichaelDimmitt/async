@@ -1,0 +1,23 @@
+{
+  "name": "async-examples",
+  "version": "1.0.0",
+  "description": "Examples from the Async presentation",
+  "main": "async-module-parallel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaxnode-UG/async.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaxnode-UG/async/issues"
+  },
+  "homepage": "https://github.com/Jaxnode-UG/async#readme",
+  "dependencies": {
+    "async": "^2.6.1"
+  }
+}
