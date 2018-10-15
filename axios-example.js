@@ -1,10 +1,12 @@
 const axios = require('axios');
 const setTimeToNewYork = require('./nytime');
 
-setImmediate(async function() {
+run();
+
+async function run() {
     const nextMeeting = await getNextMeetup();
     console.log(nextMeeting.name);
-});
+}
 
 async function getNextMeetup() {
     try {
