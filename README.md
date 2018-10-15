@@ -1,5 +1,5 @@
 # Async
-Examples from the Async presentation
+Examples from the Async presentation from October 2018. Here are the [slides](https://slides.com/davidfekke/async) from that [meetup](https://www.meetup.com/Jax-Node-js-UG/events/255151261/).
 
 ## Timers
 
