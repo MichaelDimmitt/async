@@ -1,5 +1,5 @@
 setTimeout(function() {
-    console.log('Will I run first?');
+    console.log('World!');
 }, 2000);
 
-console.log('Or Will I run first?');
+console.log('Hello');
