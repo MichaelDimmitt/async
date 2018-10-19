@@ -3,13 +3,13 @@ const async = require('async');
 function counter(value, terminus, direction, cb) {
     console.log(`${direction}: ${value}`);
     if (value < terminus && direction === 'up') {
-        setTimeout(() => {
+        setImmediate(() => {
             counter(value + 1, terminus, direction, cb);
-        },0);
+        });
     } else if (value > terminus && direction === 'down') {
-        setTimeout(() => {
+        setImmediate(() => {
             counter(value - 1, terminus, direction, cb);
-        },0);
+        });
     } else {
         cb(null, value);
     }
